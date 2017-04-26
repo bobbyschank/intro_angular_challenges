@@ -8,4 +8,7 @@ function WelcomeController(){
   this.age = '29';
   this.city = 'Rochester';
   this.state = 'New York';
+  this.shout = function(x) {return `${x.toUpperCase()}!`;};
 }
+
+app.controller("")
